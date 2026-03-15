@@ -1,30 +1,71 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Website Service</title>
-    <link rel="stylesheet" href="./index.css" />
-  </head>
+<!DOCTYPE html>
+<html>
 
-  <body>
-    <header>
-      <h1>Sandeep Web Services</h1>
-      <nav>
-        <a href="#">Home</a>
-        <a href="#">Services</a>
-        <a href="#">Order</a>
-      </nav>
-    </header>
+<head>
 
-    <section class="hero">
-      <h2>I Create Professional Websites</h2>
-      <p>Order your website today</p>
-      <button onclick="sendOrder()">Submit</button>
-    </section>
+<title>Sandeep Web Services</title>
 
-    <section class="services">
-      <h2>My Services</h2>
-      <section id="portfolio">
+<link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+
+<header>
+
+<h2>Sandeep Web Services</h2>
+
+<nav>
+
+<a href="#">Home</a>
+<a href="#services">Services</a>
+<a href="#portfolio">Portfolio</a>
+<a href="#pricing">Pricing</a>
+<a href="#order">Order</a>
+
+</nav>
+
+</header>
+
+
+<section class="hero">
+
+<h1>Welcome to Sandeep Web Services</h1>
+
+<p>I create simple and modern websites.</p>
+
+<button onclick="orderNow()">Order Now</button>
+
+</section>
+
+
+<section id="services">
+
+<h2>My Services</h2>
+
+<div class="services">
+
+<div class="service">
+<h3>Business Website</h3>
+<p>Simple website for shops and businesses</p>
+</div>
+
+<div class="service">
+<h3>Portfolio Website</h3>
+<p>Personal portfolio website</p>
+</div>
+
+<div class="service">
+<h3>Landing Page</h3>
+<p>Website to promote product or service</p>
+</div>
+
+</div>
+
+</section>
+
+
+<section id="portfolio">
 
 <h2>My Projects</h2>
 
@@ -34,37 +75,49 @@
 
 </section>
 
-      <div class="card">
-        <h3>Business Website</h3>
-        <p>Modern business website</p>
-      </div>
 
-      <div class="card">
-        <h3>Portfolio Website</h3>
-        <p>Personal portfolio design</p>
-      </div>
+<section id="pricing">
 
-      <div class="card">
-        <h3>Landing Page</h3>
-        <p>High converting landing page</p>
-      </div>
-    </section>
+<h2>Pricing</h2>
 
-    <section class="order">
-      <h2>Order Your Website</h2>
+<div class="price-box">
+<p>Basic Website</p>
+<h3>₹1500</h3>
+</div>
 
-      <form>
-        <input type="text" placeholder="Your Name" required />
-        <input type="email" placeholder="Your Email" required />
-        <textarea placeholder="Website Details"></textarea>
-        <button type="submit">Submit</button>
-      </form>
-    </section>
+<div class="price-box">
+<p>Business Website</p>
+<h3>₹3000</h3>
+</div>
 
-    <footer>
-      <p>© 2026 Sandeep Web Services</p>
-    </footer>
+</section>
 
-    <script src="first.js"></script>
-  </body>
+
+<section id="order">
+
+<h2>Order Your Website</h2>
+
+<input type="text" placeholder="Your Name">
+
+<input type="email" placeholder="Your Email">
+
+<textarea placeholder="Website Details"></textarea>
+
+<br><br>
+
+<button onclick="sendOrder()">Submit</button>
+
+</section>
+
+
+<footer>
+
+<p>© 2026 Sandeep Web Services</p>
+
+</footer>
+
+<script src="first.js"></script>
+
+</body>
+
 </html>
