@@ -24,3 +24,15 @@ let url = "https://wa.me/" + phone + "?text=" + message;
 window.open(url);
 
 }
+function sendMail(){
+
+let name = document.querySelector('input[type="text"]').value;
+let email = document.querySelector('input[type="email"]').value;
+let message = document.querySelector('textarea').value;
+
+let mail = "mailto:sandeep456don@gmail.com?subject=Website Inquiry&body=Name: " 
++ name + "%0AEmail: " + email + "%0AMessage: " + message;
+
+window.location.href = mail;
+
+}
