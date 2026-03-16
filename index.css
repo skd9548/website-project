@@ -46,16 +46,17 @@ margin-bottom:10px;
 }
 
 .hero button{
-padding:12px 25px;
-background:#007BFF;
+background:linear-gradient(45deg,#667eea,#764ba2);
 color:white;
 border:none;
-border-radius:5px;
+padding:12px 25px;
+border-radius:30px;
 cursor:pointer;
+font-size:16px;
 }
 
 .hero button:hover{
-background:#0056b3;
+transform:scale(1.05);
 }
 
 /* SERVICES */
@@ -239,4 +240,29 @@ box-shadow:0 10px 20px rgba(0,0,0,0.2);
 
 .whatsapp-float:hover{
 background:#1ebe5d;
+}
+.gallery{
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
+}
+
+.gallery img{
+width:250px;
+border-radius:10px;
+box-shadow:0 10px 20px rgba(0,0,0,0.2);
+}
+#testimonials{
+text-align:center;
+padding:50px;
+}
+
+.testimonial{
+background:white;
+margin:20px auto;
+padding:20px;
+width:250px;
+border-radius:10px;
+box-shadow:0 10px 20px rgba(0,0,0,0.1);
 }
