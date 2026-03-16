@@ -103,3 +103,47 @@ color:white;
 text-align:center;
 padding:20px;
 }
+nav a{
+color:white;
+margin-left:20px;
+text-decoration:none;
+transition:0.3s;
+}
+
+nav a:hover{
+color:#00ffff;
+}
+button{
+transition:0.3s;
+}
+
+button:hover{
+transform:scale(1.1);
+background:#ff6600;
+}
+.service{
+border:1px solid #ddd;
+padding:20px;
+width:200px;
+transition:0.3s;
+}
+
+.service:hover{
+transform:translateY(-10px);
+box-shadow:0 10px 20px rgba(0,0,0,0.2);
+}
+.price-box{
+border:1px solid gray;
+display:inline-block;
+padding:20px;
+margin:10px;
+transition:0.3s;
+}
+
+.price-box:hover{
+background:#007BFF;
+color:white;
+transform:scale(1.05);
+} html{
+scroll-behavior:smooth;
+}
