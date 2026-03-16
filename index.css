@@ -210,3 +210,54 @@ padding:80px 20px;
 }
 
 }
+/* Mobile Responsive */
+
+@media (max-width:768px){
+
+header{
+flex-direction:column;
+text-align:center;
+}
+
+nav{
+margin-top:10px;
+}
+
+nav a{
+display:block;
+margin:10px 0;
+}
+
+.services{
+flex-direction:column;
+align-items:center;
+}
+
+.service{
+width:80%;
+}
+
+.price-box{
+display:block;
+width:80%;
+margin:15px auto;
+}
+
+.project{
+width:80%;
+}
+
+#order input,
+#order textarea{
+width:80%;
+}
+
+.hero h1{
+font-size:26px;
+}
+
+.hero{
+padding:60px 20px;
+}
+
+}
