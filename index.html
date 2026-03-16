@@ -6,7 +6,7 @@
 <title>Sandeep Web Services</title>
 
 <link rel="stylesheet" href="index.css">
-
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -50,9 +50,9 @@
 <p>Simple website for shops and businesses</p>
 </div>
 
-<div class="service">
-<h3>Portfolio Website</h3>
-<p>Personal portfolio website</p>
+<div class="service" data-aos="fade-up">
+<h3>Business Website</h3>
+<p>Simple website for shops and businesses</p>
 </div>
 
 <div class="service">
@@ -69,7 +69,7 @@
 
 <h2>My Projects</h2>
 
-<div class="project">
+<div class="project" data-aos="zoom-in">
 <p>Website Order Landing Page</p>
 </div>
 
@@ -80,7 +80,7 @@
 
 <h2>Pricing</h2>
 
-<div class="price-box">
+<div class="price-box" data-aos="flip-left">
 <p>Basic Website</p>
 <h3>₹2500</h3>
 </div>
@@ -136,7 +136,11 @@
 </footer>
 
 <script src="first.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
+<script>
+AOS.init();
+</script>
 </body>
 
 </html>
