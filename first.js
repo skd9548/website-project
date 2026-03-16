@@ -36,3 +36,15 @@ let mail = "mailto:sandeep456don@gmail.com?subject=Website Inquiry&body=Name: "
 window.location.href = mail;
 
 }
+let text = "I create modern websites for businesses";
+let i = 0;
+
+function typingEffect(){
+if(i < text.length){
+document.getElementById("typing").innerHTML += text.charAt(i);
+i++;
+setTimeout(typingEffect,50);
+}
+}
+
+typingEffect();
